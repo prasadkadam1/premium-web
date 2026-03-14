@@ -442,37 +442,76 @@
     <!-- //? how to create a radio buttons -->
     <!-- <form action="">
       <label for="m">HTML</label>
-      <input type="radio" id="m" name="lang" />
+      <input type="radio" id="m" name="a" />
 
       <label for="n">Java</label>
-      <input type="radio" id="n" name="lang" />
+      <input type="radio" id="n" name="a" />
 
       <label for="o">Manual</label>
-      <input type="radio" id="o" name="lang" />
+      <input type="radio" id="o" name="a" />
 
       <label for="p">React</label>
-      <input type="radio" id="p" name="lang" />
+      <input type="radio" id="p" name="a" />
     </form> -->
 
     <!-- //? how to create a drop down -->
     <!-- <form action="">
       <select name="Language" id="">
+        <option>Choose Lang</option>
         <option value="Marathi">Marathi</option>
-        <option value="">Hindi</option>
+        <option value="Hindi">Hindi</option>
         <option value="Eng">English</option>
-        <option value="">Bengali</option>
+        <option value="Bengali">Bengali</option>
       </select>
     </form> -->
 
+    <!-- //? how to create a range bar -->
+    <!-- <form action="">
+      <label for=""></label>
+      <span></span>
+      <input type="range" min="0" max="5" value="3" />
+    </form> -->
+
+    <!--//? use of name attribute - it is used to create a key that stores a value -->
     <!-- <form action="">
       <input type="text" id="inp1" name="username" /> <br />
-      kuchbhi1 : pk123
+      username : prasad1
       <br />
-      <input type="text" id="inp2" name="kuchbhi2" /> <br />
-      kuchbhi2 : 123
+      <input type="text" id="inp2" name="password" /> <br />
+      password : 123
       <br />
       <button>Login</button>
     </form> -->
+
+    <!--//? textarea for bigger inputs like address, feedbacks, reviews etc -->
+    <!-- <fieldset>
+      <legend>Addmission form</legend>
+      <form action="">
+        <textarea name="" id=""></textarea>
+      </form>
+    </fieldset> -->
+
+    <!-- <fieldset></fieldset> - border to the form -->
+    <!-- <legend></legend> - title to the form-->
+    <!-- <form action=""></form> - wrap all the form elements -->
+    <!-- <input type="text"> /- to take multiple types of inputs like radio/checkbox/password/email/number etc-->
+    <!-- <button></button> - used to either submit or reset the form -->
+    <!-- <select name="" id=""></select> - used with options to create a dropdown -->
+    <!-- <option value=""></option>- used to give options in dropdown and must have a value  -->
+    <!-- <textarea name="" id=""></textarea> - used for bigger inputs like address, feedbacks, reviews etc -->
+
+    <!--//? attributes with the form -->
+    <form action="">
+      <!-- <input type="text" required /> makes the field mandatory-->
+      <!-- <input type="text" placeholder="username" /> used to identify the fields -->
+      <!-- <input type="text" value="prasad@gmail.com" readonly /> readonly -  we cant modify the fields-->
+      <!-- <input type="text" value="+91 "/> value - to set some default values to the fields -->
+      <!-- <input type="checkbox" checked /> defaulty makes the checkboxes and radio buttons as checked -->
+      <!-- <input type="text" minlength="3" />
+      <input type="text" maxlength="10" /> -->
+      <!-- <input type="date" min="2019-03-10" max="2022-03-10" /> to select the date within the range -->
+      <!-- <button disabled>Pay</button> used to disable the element usually used with buttons -->
+    </form>
 
     <!-- <script>
       input1 = document.getElementById("inp1");
